@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #333;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            font-size: 3em; /* Larger size retained */
+        }
+        h4 {
+            color: #e74c3c;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.4em; /* Reduced from 1.8em */
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-size: 1.2em; /* Reduced from 1.5em */
+        }
+        p a {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px; /* Reduced padding */
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.1em; /* Reduced from 1.2em */
+        }
+        p a:hover {
+            background-color: #e74c3c;
+            color: white;
+        }
+        table {
+            margin-top: 20px;
+            width: 80%;
+            margin-bottom: 20px;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+            font-size: 1.3em; /* Kept the same size */
+        }
+        td {
+            font-size: 1.2em; /* Kept the same size */
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #f1c40f;
+            color: white;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #e74c3c;
+        }
+        @media (max-width: 768px) {
+            table, th, td {
+                font-size: 0.8em;
+            }
+            h1 {
+                font-size: 2.4em;
+            }
+            p a {
+                padding: 8px 15px; /* Further reduced for smaller screens */
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to User Management!</h1>
+    <h4>Manage your users effectively</h4>
+    <p>Explore the features of our user management system.</p>
+    <p><a href="/data">Get Started</a></p>
+</body>
+</html>
